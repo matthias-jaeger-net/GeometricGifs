@@ -7,6 +7,7 @@
 ![example](rendered/export-1.gif)
 
 ### Untitled, 400x400
+<<<<<<< HEAD
 ![example](rendered/export-2.gif)
 
 ### Untitled, 400x400
@@ -18,6 +19,12 @@
 ### Untitled, 400x400
 ![example](rendered/export-5.gif)
 
+=======
+![example](rendered/export-1.gif)
+
+### Untitled, 400x400
+![example](rendered/export-1.gif)
+>>>>>>> origin/master
 
 ## Rendering
 [http://processing.org/](http://p5js.org/)

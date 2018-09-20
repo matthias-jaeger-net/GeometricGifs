@@ -13,7 +13,7 @@ float ROTATION = 0.0;
 
 void setup() {
   size(400, 400);
-  gifExport = new GifMaker(this, "../rendered/export.gif", 100);
+  gifExport = new GifMaker(this, "../../rendered/export.gif", 100);
   gifExport.setRepeat(0); 
   
   for (int i = 0; i < polygons.length; i++) {

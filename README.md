@@ -2,7 +2,8 @@
 > Matthias experiments in programming animated geometric graphics for Ulrich Armin Reiterer.
 
 ## Examples
-![example](rendered/)
+Latest:
+![example](src/rendered/export.gif)
 
 
 ## Rendering

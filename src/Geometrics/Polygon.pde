@@ -14,12 +14,12 @@ class Polygon {
     if (radius <= DISTANCE*0.2) {
       radius = MAXRADIUS;
     } else {
-      radius--;
+      radius-=0.8234;
     }
   }
 
   void render() {
-    //strokeWeight(map(radius, 0, MAXRADIUS, 1, DISTANCE));
+    strokeWeight(map(radius, 0, MAXRADIUS, 1, DISTANCE));
     float angle = TWO_PI / npoints;
     beginShape();
     for (float a = 0; a < TWO_PI; a += angle) {

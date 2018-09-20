@@ -3,13 +3,13 @@ import gifAnimation.*;
 GifMaker gifExport;
 
 int frames = 0;
-int totalFrames = 300;
+int totalFrames = 360;
 
-Polygon[] polygons = new Polygon[100];
-float DISTANCE = 20.0;
+Polygon[] polygons = new Polygon[30];
+float DISTANCE = 30.0;
 float MAXRADIUS = polygons.length * DISTANCE;
-int SEGMENTS = 3;
-float ROTATION = 0.006;
+int SEGMENTS = 4;
+float ROTATION = TAU/totalFrames;
 
 void setup() {
   size(400, 400);
@@ -26,7 +26,7 @@ void draw() {
 
   noFill();
   stroke(255);
-  strokeWeight(4);
+  //strokeWeight(2);
   translate(width / 2, width / 2);
   rotate(frameCount * ROTATION); 
 

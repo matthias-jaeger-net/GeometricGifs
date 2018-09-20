@@ -5,11 +5,11 @@ GifMaker gifExport;
 int frames = 0;
 int totalFrames = 300;
 
-Polygon[] polygons = new Polygon[10];
-float DISTANCE = 50.0;
+Polygon[] polygons = new Polygon[100];
+float DISTANCE = 20.0;
 float MAXRADIUS = polygons.length * DISTANCE;
-int SEGMENTS = 5;
-float ROTATION = 0.0;
+int SEGMENTS = 3;
+float ROTATION = 0.006;
 
 void setup() {
   size(400, 400);
@@ -22,11 +22,11 @@ void setup() {
 }
 
 void draw() {
-  background(255);
+  background(0);
 
   noFill();
-  stroke(0);
-  strokeWeight(2);
+  stroke(255);
+  strokeWeight(4);
   translate(width / 2, width / 2);
   rotate(frameCount * ROTATION); 
 

@@ -2,17 +2,19 @@
 > Matthias experiments in programming animated geometric graphics for Ulrich Armin Reiterer.
 
 ## Examples
+
+### Untitled, 400x400
 ![example](rendered/export.gif)
 
+### Untitled, 400x400
+![example](rendered/export.gif)
+
+### Untitled, 400x400
+![example](rendered/export.gif)
 
 ## Rendering
-[http://p5js.org/](http://p5js.org/)
-p5*js - a library for rendering graphics in a `<canvas>`
-
-## Typography
-[https://developers.google.com/fonts/](https://developers.google.com/fonts/)
-The Google Font Api provides a large number of font-families as `<option>` in a `<select>`
-
+[http://processing.org/](http://p5js.org/)
+Processing is a library for rendering graphics in a `PApplet`
 
 # Thanks for beeing here, you are awsome!
 > Let's stay in touch! Pulls, forks and stars are welcome

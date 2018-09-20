@@ -3,7 +3,7 @@
 
 ## Examples
 Latest:
-![example](src/rendered/export.gif)
+![example](rendered/export.gif)
 
 
 ## Rendering
